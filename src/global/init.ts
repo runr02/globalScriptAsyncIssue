@@ -1,5 +1,5 @@
-export default function() {
-    return new Promise((resolve, reject) => {
+export default async function() {
+    return await new Promise((resolve, reject) => {
         var iframe = document.createElement('iframe');
         iframe.src = "https://www.example.com";
         iframe.style.width = "100%";
